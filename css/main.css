@@ -1,1 +1,11 @@
 /* Inserta tu CSS aqui */
+.circulo{
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;	
+}
+
+.pelota{
+	background-image: url(../img/bola.png);	
+}
+
