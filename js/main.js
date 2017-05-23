@@ -3,6 +3,7 @@ var linea = document.getElementsByClassName("linea")[0];
 var arcoUno = document.getElementsByClassName("arco-uno")[0];
 var arcoDos = document.getElementsByClassName("arco-dos")[0];
 var circulo = document.getElementsByClassName("circulo")[0];
+var laPelota = document.getElementsByClassName("pelota")[0];
 var pelotaUno = document.getElementsByClassName("uno")[0];
 var pelotaDos = document.getElementsByClassName("dos")[0];
 var pelotaTres = document.getElementsByClassName("tres")[0];
@@ -41,21 +42,26 @@ circulo.style.position = "absolute";
 circulo.style.width = "200px";
 circulo.style.height = "200px";
 circulo.style.border = "2px solid #FFFFFF";
+circulo.style.borderRadius = "50%";
+
 circulo.style.top = "120px";
 circulo.style.right = "325px";
 
+pelotaUno.style.backgroundImage = "url('img/bola.png')";
 pelotaUno.style.position = "absolute";
 pelotaUno.style.width = "24px";
 pelotaUno.style.height = "24px";
 pelotaUno.style.top = "83px";
 pelotaUno.style.left = "115px";
 
+pelotaDos.style.backgroundImage = "url('img/bola.png')";
 pelotaDos.style.position = "absolute";
 pelotaDos.style.width = "24px";
 pelotaDos.style.height = "24px";
 pelotaDos.style.top = "50px";
 pelotaDos.style.left = "380px";
 
+pelotaTres.style.backgroundImage = "url('img/bola.png')";
 pelotaTres.style.position = "absolute";
 pelotaTres.style.width = "24px";
 pelotaTres.style.height = "24px";
